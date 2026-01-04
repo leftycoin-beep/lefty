@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>lefty</title>
+  <meta name="description" content="only left hand behaviour." />
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #000;
+      color: #fff;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+    .card {
+      width: min(520px, 92vw);
+      text-align: center;
+      padding: 28px;
+      border: 1px solid #1f1f1f;
+      border-radius: 18px;
+      background: #0a0a0a;
+    }
+    img {
+      width: 100%;
+      max-width: 360px;
+      height: auto;
+      border-radius: 14px;
+      border: 1px solid #1f1f1f;
+      display: block;
+      margin: 0 auto 18px;
+    }
+    h1 { margin: 8px 0 6px; font-size: 42px; letter-spacing: 0.5px; }
+    p { margin: 0 0 18px; opacity: 0.85; }
+    .btns { display: grid; gap: 10px; }
+    a.btn {
+      display: inline-block;
+      padding: 14px 16px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid #1f1f1f;
+      background: #111;
+      color: #fff;
+    }
+    a.btn.primary { background: #19ff8c; color: #000; border-color: #19ff8c; }
+    .small { margin-top: 14px; font-size: 12px; opacity: 0.6; }
+    code { opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img src="lefty.png" alt="lefty" />
+    <h1>lefty</h1>
+    <p>only left hand behaviour.</p>
+
+    <div class="btns">
+      <!-- TODO: zalijepi pump.fun link kad ga imaš -->
+      <a class="btn primary" href="https://pump.fun/" target="_blank" rel="noreferrer">buy on pump.fun</a>
+      <!-- TODO: zalijepi X link kad ga imaš -->
+      <a class="btn" href="https://x.com/LeftyCoin" target="_blank" rel="noreferrer">follow on X</a>
+    </div>
+
+    <div class="small">
+      ticker: <code>$LEFTY</code>
+    </div>
+  </main>
+</body>
+</html>
